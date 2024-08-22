@@ -11,12 +11,103 @@
     </head>
 
     <body>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+        </nav>
+
         <div class="container">
-            <h1>Bootstrap</h1>
+            <h1>Bootstrap</h1><br><br>
+
+            <h2>Tabelas</h2>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Telefone</th>
+                        <th>Endereço</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Rodrigo Terra</th>
+                        <th>(23) 23145-1234</th>
+                        <th>Rua Jaboti</th>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <th>Alexandra Pione</th>
+                        <th>(28) 25677-8234</th>
+                        <th>Rua Carcará</th>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <th>Eduardo Silva</th>
+                        <th>(54) 29534-9784</th>
+                        <th>Rua Planato</th>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <th>Simone Alvez</th>
+                        <th>(64) 03754-4566</th>
+                        <th>Rua Timoté</th>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <th>Suzan Tales</th>
+                        <th>(75) 05683-4875</th>
+                        <th>Rua Banju</th>
+                    </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <th>Carlos Gomes</th>
+                        <th>(58) 25986-9684</th>
+                        <th>Rua Maranhão</th>
+                    </tr>
+                </tbody>
+            </table><br><br>
 
             <h2>Botões</h2>
 
-            <input  class="btn btn-success" type="button" value="Salvar">
+            <input  class="btn btn-outline-success" type="button" value="Salvar">
             <button class="btn btn-danger" type="button">Salvar</button>
             <button class="btn btn-primary" type="button">Cancelar</button>
             <button class="btn btn-info" type="button">Informação</button><br><br>
@@ -60,6 +151,54 @@
                     </div>
                 </div>
                 </div>
+
+                <h2>Alertas</h2>
+
+                <div class="alert alert-danger">
+                    Atenção! Obrigado pela atenção... Clique <a href="#" class="alert-link">aqui</a> para saber mais.
+                </div>
+
+                <div class="alert alert-info">
+                    Atenção! Obrigado pela atenção... Clique <a href="#" class="alert-link">aqui</a> para saber mais.
+                </div>
+
+                <div class="alert alert-success">
+                    Atenção! Obrigado pela atenção... Clique <a href="#" class="alert-link">aqui</a> para saber mais.
+                </div>
+
+                <div class="alert alert-secondary">
+                    Atenção! Obrigado pela atenção... Clique <a href="#" class="alert-link">aqui</a> para saber mais.
+                </div>
+
+                <div class="alert alert-warning">
+                    Atenção! Obrigado pela atenção... Clique <a href="#" class="alert-link">aqui</a> para saber mais.
+                </div>
+
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                    <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div><br><br>
+
+                <h2>Cartões</h2><br><br>
+
+                <div class="card" style="width: 18rem;">
+                    <img src="img/produto_2.jpg" class="card-img-top" alt="Produto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">NoteBook Alienware</h5>
+                        <p class="card-text">NoteBook de 17' na cor preta.</p>
+                        <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                    </div>
+                </div>
+
+                <div class="card border-danger mb-3" style="max-width: 18rem;">
+                    <div class="card-header text-bg-danger">Header</div>
+                    <div class="card-body">
+                        <h5 class="card-title">Warning card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+
+
             </div>
 
         </div>
