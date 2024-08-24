@@ -1,0 +1,27 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    border: green dashed 5px;
+    margin: 30px 0 30px 0;
+    padding: 30px;
+    text-align: center;
+}
+
+footer{
+    background-color: gray;
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 110%;
+}
+
+.produto-item{
+    font-weight: bold;
+}
+
+.cabecalho{
+    font-size: 150%;
+}
